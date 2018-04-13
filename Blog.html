@@ -24,7 +24,12 @@
 
 <div class="content">
   <h3>Blog</h3>
-  <p>This Blog is Catch-All! This will be detailing my ongoing projects in Computer Science! Updated Weekly!</p>
+  <p>This Blog is Catch-All! This will be detailing my ongoing projects in Computer Science! Updated Weekly! To be able to comment, please login!</p>
+  <form action="/action_page.php">
+  Username: <input type="text" name="usrname" required>
+  Password: <input type="text" name="psword" required>
+  <input type="submit">
+</form>
 
   <h4>1/9/18</h4>
   <p>Today I did a bunch of research on how to actually go about creating the game, and looking at other examples of games that I can learn from. I have decided to use JS, and it seems to be working out okay as of right now. At home I did a little bit of coding, and have the basics of my world set up. I created a tile map, with a large 2D array, and a loop to determine which block is which. I was originally going to use a picture, but I figured this would be an easier way for me to make wall collisions. I am currently struggling with the viewmodel, and cannot seem to figure out how to make a camera class, and if that is even the right approach. I'm unsure if I should use a camera, or move the environment around the player. That has yet to be determined. I also made some test sprite imagery, very bad pixel art, but it will do for know until quinn makes me some of his world famous pixel art. Anyways, I'm off to figure out more of this.
@@ -36,4 +41,29 @@
   <img src="Update1-19.png" width="529" height="525">
 
 
+  <html>
+  <head>
+      <title>Node Authentication</title>
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+      <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+      <style>
+          body        { padding-top:80px; }
+      </style>
+  </head>
+  <body>
+  <div class="container">
+
+      <div class="jumbotron text-center">
+          <h1><span class="fa fa-lock"></span> Node Authentication</h1>
+
+          <p>Login or Register with:</p>
+
+          <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
+          <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
+      </div>
+
+  </div>
+  </body>
+  </html>
+  
 </html>
